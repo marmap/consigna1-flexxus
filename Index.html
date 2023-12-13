@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bienvenido</title>
+</head>
+<body>
+    <h1>Bienvenido</h1>
+    <div id="formulario">
+        <label for="name">Ingresa tu nombre:</label>
+        <input type="text" id="nombre" />
+        <button onclick="iniciar()" id="iniciar">Iniciar</button>
+    </div>
+
+    <div id="mensaje-bienvenida" style="display: none;">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="aprobacion-icono">
+            <path fill="#407709" d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/>
+        </svg>
+        <p id="texto-bienvenida"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,29 @@
+body {
+    background-color: #a4fff7;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.5s;
+}
+
+#aprobacion-icono {
+    fill: #407709;
+    height: 120px;
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+#iniciar {
+    color: white;
+    background: #407709;
+    font-family: 'Raleway', sans-serif;
+}
+
+#iniciar:hover {
+    background: white;
+    color: #407709;
+}
